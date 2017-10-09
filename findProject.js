@@ -1,3 +1,11 @@
+/*Use the parrots collection from the database named learnyoumongo to
+find all documents where age is greater than the first argument
+passed to your script.
+
+The difference from the last lesson will be that we only want the
+name and age properties
+
+Using console.log, print the documents to stdout. */
 var mongo = require('mongodb').MongoClient;
 var age = process.argv[2];
 

@@ -1,3 +1,10 @@
+/*This lesson involves removing a document with the given _id.
+
+The database name will be accessible via process.argv[2].
+
+The collection name will be passed as the second argument to your script.
+
+The _id will be passed as the third argument to your script. */
 var mongo = require('mongodb').MongoClient;
 var database = process.argv[2];
 var collectionName = process.argv[3];

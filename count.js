@@ -1,3 +1,8 @@
+/*Use the parrots collection from the database named learnyoumongo to
+count all documents where age is greater than the first argument
+passed to your script.
+
+Using console.log, print the number to stdout. */
 var mongo = require('mongodb').MongoClient;
 var age = process.argv[2];
 

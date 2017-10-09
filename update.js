@@ -1,3 +1,18 @@
+/*Here we are going to update a document in the users collection.
+
+The database name will be accessible via process.argv[2].
+
+Say we have a user defined like:
+
+    {
+      "name": "Tina",
+      "age": 30,
+      "username": "tinatime"
+    }
+
+We want to change Tina's age from 30 to 40.
+
+For the purpose of this lesson, assume that the username property is unique. */
 var mongo = require('mongodb').MongoClient;
 var database = process.argv[2];
 
